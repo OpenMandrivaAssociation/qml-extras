@@ -26,3 +26,5 @@ Extra types and utilities to make QML even more awesome.
 %makeinstall_std INSTALL_ROOT=%{buildroot}
 
 %files
+%{_qt5_libdir}/qt5/qml/Material/*
+%{_qt5_libdir}/qt5/tests/tst_extras/tst_extras
