@@ -1,5 +1,5 @@
 %define debug_package %nil
-%define snap	20150121
+%define snap 20150203
 
 Summary:	QML Extras
 Name:		qml-extras
