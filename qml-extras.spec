@@ -14,6 +14,7 @@ Source0:	%{name}-%{version}-%{snap}.tar.xz
 BuildRequires:	qt5-devel
 BuildRequires:	pkgconfig(Qt5Qml)
 BuildRequires:	pkgconfig(Qt5QuickTest)
+BuildRequires:	pkgconfig(Qt5Quick)
 
 %description
 Extra types and utilities to make QML even more awesome.
