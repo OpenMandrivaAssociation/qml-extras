@@ -13,6 +13,7 @@ URL:		https://github.com/papyros/qml-extras
 Source0:	%{name}-%{version}-%{snap}.tar.xz
 BuildRequires:	qt5-devel
 BuildRequires:	pkgconfig(Qt5Qml)
+BuildRequires:	pkgconfig(Qt5QuickTest)
 
 %description
 Extra types and utilities to make QML even more awesome.
