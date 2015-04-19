@@ -1,15 +1,15 @@
 %define debug_package %nil
-%define snap	20150408
+%define snap 20150419
 
 Summary:	QML Extras
 Name:		qml-extras
-Version:	0.0.0
+Version:	0.0.5
 Release:	1.%{snap}.1
 License:	GPLv2
 Group:		Graphical desktop/Other
 URL:		https://github.com/papyros/qml-extras
 # git clone https://github.com/papyros/qml-extras.git
-# git archive --format=tar --prefix qml-extras-0.0.0-$(date +%Y%m%d)/ HEAD | xz -vf > qml-extras-0.0.0-$(date +%Y%m%d).tar.xz
+# git archive --format=tar --prefix qml-extras-0.0.5-$(date +%Y%m%d)/ HEAD | xz -vf > qml-extras-0.0.5-$(date +%Y%m%d).tar.xz
 Source0:	%{name}-%{version}-%{snap}.tar.xz
 BuildRequires:	qt5-devel
 BuildRequires:	pkgconfig(Qt5Qml)
