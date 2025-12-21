@@ -11,6 +11,7 @@ URL:		https://github.com/papyros/qml-extras
 # git clone https://github.com/papyros/qml-extras.git
 # git archive --format=tar --prefix qml-extras-0.0.5-$(date +%Y%m%d)/ HEAD | xz -vf > qml-extras-0.0.5-$(date +%Y%m%d).tar.xz
 Source0:	%{name}-%{version}-%{snap}.tar.xz
+BuildRequires:	make
 BuildRequires:	qt5-devel
 BuildRequires:	pkgconfig(Qt5Qml)
 BuildRequires:	pkgconfig(Qt5QuickTest)
